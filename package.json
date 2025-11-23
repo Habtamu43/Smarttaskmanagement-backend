@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://habtamu43.github.io/smart-task-manager-mern-frontend",
   "dependencies": {
+    "bcryptjs": "^3.0.3",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "pg": "^8.16.3",
