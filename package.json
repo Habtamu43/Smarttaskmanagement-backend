@@ -1,30 +1,22 @@
 {
-  "name": "smart-task-frontend",
+  "name": "smarttask-backend",
   "version": "1.0.0",
-  "private": true,
-  "homepage": "https://habtamu43.github.io/smart-task-manager-mern-frontend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
+    "express": "^4.18.2",
+    "sequelize": "^6.37.7",
+    "pg": "^8.16.3",
+    "pg-hstore": "^2.3.4",
+    "dotenv": "^17.2.3",
     "bcryptjs": "^3.0.3",
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",
-    "dotenv": "^17.2.3",
-    "jsonwebtoken": "^9.0.2",
-    "pg": "^8.16.3",
-    "pg-hstore": "^2.3.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "sequelize": "^6.37.7"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "jsonwebtoken": "^9.0.2"
   }
 }
